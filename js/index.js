@@ -62,3 +62,10 @@ for (let i = 97; i <= 122; i++) {
 
 getRandomWord();
 playAgainBtn.addEventListener("click", getRandomWord);
+
+const changeColor = () => {
+    console.log('button clicked');
+}
+
+const randomButton = document.getElementById('change-color');
+randomButton.addEventListener("click", changeColor);
